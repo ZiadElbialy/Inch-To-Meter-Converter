@@ -1,0 +1,23 @@
+parseInt:
+consle.log(parseInt(1000meter));
+Result: 1000
+
+string concatenation:
+const str = 'Hello' + ' ' + 'World';
+str; // 'Hello World'
+
+let str = 'Hello';
+str += ' ';
+str += 'World';
+str; // 'Hello World'
+
+let str = 'Values: ';
+str += 42;
+str += ' ';
+
+str += {};
+str += ' ';
+
+str += null;
+
+str; // 'Values: 42 [object Object] null'
